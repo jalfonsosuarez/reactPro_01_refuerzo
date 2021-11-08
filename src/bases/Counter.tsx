@@ -1,7 +1,11 @@
 import { useState } from 'react';
 
+interface Props {
+    initialValue?: number;
+}
 
-export const Counter = ( { initialValue = 0 } ) => {
+
+export const Counter = ( { initialValue = 0 }: Props ) => {
 
     const [counter, setCounter] = useState( initialValue );
 
