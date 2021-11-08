@@ -1,3 +1,4 @@
+# Curso React Pro con TS de Fernando Herrera. 01-refuerzo rect & TS. 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
