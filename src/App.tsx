@@ -1,3 +1,4 @@
+import { Counter } from './bases/Counter';
 
 
 function App() {
@@ -5,6 +6,7 @@ function App() {
     <>
       <h1>React</h1>
       <hr />
+      <Counter initialValue={ 15 } />
     </>
   );
 }
